@@ -132,7 +132,7 @@ class SecurityAPI:
             "offset": offset,
             "component": component,
             "version": versions,
-            "status": statuses,
+            "package_status": statuses,
         }
 
         # Remove falsey items from dictionary
